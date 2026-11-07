@@ -1,0 +1,6 @@
+numpy
+matplotlib
+plotly
+ipywidgets>=8
+ipykernel
+pillow
