@@ -22,6 +22,8 @@ To run it on your own machine: `pip install -r requirements.txt`, then open `met
 
 You can also choose **Run > Run All Cells** straight away to see the example, then change the form and run all the cells again. In JupyterLab or Binder, do not use the double-arrow toolbar button: it restarts the kernel first, and the form goes back to the example.
 
+**While it runs:** Run All Cells can take a good while on Binder, especially the first time (the map tiles have to download), so please be patient. The small circle at the top right of the notebook, by the kernel name, shows the status: it is filled while the notebook is working and empty when everything has finished. The page also jumps to the bottom of the notebook as it runs, and it stays there when it finishes. To get back to any step, use the **Table of Contents** icon in the left sidebar and click a heading, or press the Home key.
+
 - **Transmitter (illuminator)** and **Receiver**: a name, latitude and longitude in degrees (north and east are positive, so US longitudes are negative) and height above sea level in metres. The transmitter box also holds the frequency in MHz. **Swap TX / RX** exchanges the two.
 - **Radiant and time**: pick a shower from the menu to fill in an approximate radiant, or type your own J2000 right ascension and declination in degrees. Then set the date and time in UTC. Steps 4, 5, 6b and 7 look at the whole UTC day of the date; the other steps use the time you give. Menu radiants are approximate values near peak. A radiant drifts from night to night, so check a current list such as the IMO meteor shower calendar for your date.
 - Under the form, a cell holds the other settings as named values (height band, direction tolerance, plot sizes, link margins), each with a comment.
