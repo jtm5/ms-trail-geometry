@@ -1,6 +1,6 @@
 # Meteor trail geometry: can a radiant give a specular echo?
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtm5/ms_trail_geometry/HEAD?labpath=meteor_detect_demo.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtm5/ms-trail-geometry/HEAD?labpath=meteor_detect_demo.ipynb)
 
 A small notebook for meteor-scatter (MS) planning. For a transmitter (illuminator), a receiver, a meteor shower radiant and a time, it asks where meteor trails from that radiant can give a **specular echo**, and shows how that changes through the day.
 
