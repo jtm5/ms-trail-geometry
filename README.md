@@ -14,7 +14,7 @@ To run it on your own machine: `pip install -r requirements.txt`, then open `met
 
 ## Use your own stations and radiant
 
-**Step 1** of the notebook is a form. Fill it in and choose **Run All**; the form keeps what you typed when you run again.
+**Step 1** of the notebook is a form. Fill it in, then run all the cells with **Run > Run All Cells** (top menu). The form keeps what you typed when you run again that way. In JupyterLab or Binder, use the **Run** menu at the top, then **Run All Cells**. Do not use the double-arrow toolbar button: it restarts the kernel first, and the form goes back to the WDPN example.
 
 - **Transmitter (illuminator)** and **Receiver**: a name, latitude and longitude in degrees (north and east are positive, so US longitudes are negative) and height above sea level in metres. The transmitter box also holds the frequency in MHz. **Swap TX / RX** exchanges the two.
 - **Radiant and time**: pick a shower from the menu to fill in an approximate radiant, or type your own J2000 right ascension and declination in degrees. Then set the date and time in UTC. Steps 4, 5, 6b and 7 look at the whole UTC day of the date; the other steps use the time you give. Menu radiants are approximate values near peak. A radiant drifts from night to night, so check a current list such as the IMO meteor shower calendar for your date.

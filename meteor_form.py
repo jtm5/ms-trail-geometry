@@ -1,7 +1,7 @@
 """Input form for the notebook: stations, radiant, date and time.
 
 show_form() displays the fields; values() returns the validated inputs for the cells that follow. The form remembers what
-you typed while the kernel runs, so choosing Run All again rebuilds the form with your values, not the starting ones.
+you typed while the kernel runs, so running all the cells again (not restarting the kernel) rebuilds the form with your values, not the starting ones.
 The maths lives in meteor_core.py and meteor_detect.py."""
 from datetime import date, datetime, timezone
 from types import SimpleNamespace
@@ -135,7 +135,7 @@ def show_form():
         text += (f"<b>{el:.0f}&deg; above</b> the horizon at the middle of the path." if el > 0 else
                  "<b>below the horizon</b> at the middle of the path (Steps 4, 5, 6b and 7 still scan the whole day).")
         if state["dirty"]:
-            text += " <b>Fields changed: choose Run All to refresh the results below.</b>"
+            text += " <b>Fields changed: choose Run &gt; Run All Cells to refresh the results below.</b>"
         readout.value = f"<span style='opacity:.85'>{text}</span>"
 
     def on_change(key):
